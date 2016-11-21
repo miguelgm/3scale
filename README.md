@@ -37,5 +37,6 @@ Instructions:
     - curl URL
 
 
-Since friday, there is a bug that prevents the access to any pod using a route. I got it working on thursday.
+WARNING!!!
+Since friday, there is a bug that prevents the access to any pod using a route. I got it working on thursday. The service is accessible using curl within any of the pods.
 https://bugzilla.redhat.com/show_bug.cgi?id=1396798
