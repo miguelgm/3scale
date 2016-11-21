@@ -38,5 +38,5 @@ oc - To interact with OpenShift Online. Available from https://console.preview.o
 
 ## WARNING!!!
 Since friday, there is an intermitent bug that prevents the access to any pod using a route. It is working as of now 2016-11-21.
-https://bugzilla.redhat.com/show_bug.cgi?id=1396798
-https://groups.google.com/forum/?hl=es#!topic/openshift/N4hJYlYMKe4
+* https://bugzilla.redhat.com/show_bug.cgi?id=1396798
+* https://groups.google.com/forum/?hl=es#!topic/openshift/N4hJYlYMKe4
