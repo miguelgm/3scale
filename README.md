@@ -3,7 +3,7 @@
 
 Tools Needed
 
-oc - To interact with OpenShift Online. Available in opt/ or at openshift.com
+oc - To interact with OpenShift Online. Available from https://s3.amazonaws.com/oso-preview-docker-registry/client-tools/3.3/oc-3.3.0.35-1-linux.tar.gz
 
 Instructions:
 
