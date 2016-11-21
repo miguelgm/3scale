@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Route
+metadata:
+  name: helloworld
+  namespace: 3scale
+  labels:
+    app: helloworld
+  annotations:
+    openshift.io/host.generated: 'true'
+spec:
+  path: /
+  to:
+    kind: Service
+    name: helloworld
+    weight: 100
+  port:
+    targetPort: 8080-tcp
+  tls:
+    termination: edge
+    insecureEdgeTerminationPolicy: Redirect
